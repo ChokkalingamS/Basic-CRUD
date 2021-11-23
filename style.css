@@ -1,0 +1,51 @@
+.container
+{
+    background-image: linear-gradient(to right bottom, #8493aa, #3cafd2, #00cdcb, #00e28c, #a8eb12);
+    font-family: 'Open Sans', sans-serif;
+    margin:1rem;
+    /* width:20rem; */
+
+}
+
+ .top
+{   
+    background-image: linear-gradient(to right top, #fbf0f7, #f6edf6, #f0eaf4, #eae7f2, #e3e4f0, #dfe5f2, #dbe6f3, #d7e7f4, #d5ecf8, #d3f1fa, #d2f6fa, #d3fbf9);
+    font-family: 'Open Sans', sans-serif;
+    padding:3rem;
+    display: flex;
+    
+    border-radius:0.8rem;
+     
+    
+ } 
+
+.content
+{
+    background-image: linear-gradient(to right top, #fbf0f7, #f6edf6, #f0eaf4, #eae7f2, #e3e4f0, #dfe5f2, #dbe6f3, #d7e7f4, #d5ecf8, #d3f1fa, #d2f6fa, #d3fbf9);
+    padding:10px;
+    display: flex;
+    gap:1.5rem;
+}
+.avatar{
+    border-radius:4rem;
+    height:4rem;
+    width:4rem;
+    object-fit: cover;
+    
+}
+
+.content:hover,.top:hover
+{
+    color:red;
+}
+.content:hover
+{
+    transform:scaleY(1.1);
+    transition:(0.2) ;
+}
+
+
+.editbox
+{
+    display: none;
+}
